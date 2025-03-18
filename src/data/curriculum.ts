@@ -1,0 +1,113 @@
+// data/curriculum.ts
+export const curriculums = {
+    'computer-science': {
+      departmentId: 'computer-science',
+      courses: [
+        {
+          id: 'cs101',
+          code: 'CS101',
+          title: 'Introduction to Programming',
+          description: 'Basic concepts of programming using Python, including variables, conditionals, loops, and functions.',
+          creditHours: 3,
+          level: '100',
+          semester: 'First',
+        },
+        {
+          id: 'cs102',
+          code: 'CS102',
+          title: 'Data Structures and Algorithms',
+          description: 'Fundamental data structures including arrays, linked lists, stacks, queues, trees, and basic algorithms.',
+          creditHours: 3,
+          level: '100',
+          semester: 'Second',
+        },
+        {
+          id: 'cs201',
+          code: 'CS201',
+          title: 'Object-Oriented Programming',
+          description: 'Principles of object-oriented programming using Java, including classes, inheritance, polymorphism, and encapsulation.',
+          creditHours: 3,
+          level: '200',
+          semester: 'First',
+        },
+        {
+          id: 'cs202',
+          code: 'CS202',
+          title: 'Database Systems',
+          description: 'Fundamentals of database design, SQL, normalization, and transaction management.',
+          creditHours: 3,
+          level: '200',
+          semester: 'Second',
+        },
+      ],
+    },
+    'electrical-engineering': {
+      departmentId: 'electrical-engineering',
+      courses: [
+        {
+          id: 'ee101',
+          code: 'EE101',
+          title: 'Circuit Theory',
+          description: "Basic electrical circuit components, Ohm's law, Kirchhoff's laws, and circuit analysis techniques.",
+          creditHours: 4,
+          level: '100',
+          semester: 'First',
+        },
+        {
+          id: 'ee102',
+          code: 'EE102',
+          title: 'Digital Logic Design',
+          description: 'Boolean algebra, logic gates, combinational and sequential circuits, and digital system design.',
+          creditHours: 3,
+          level: '100',
+          semester: 'Second',
+        },
+      ],
+    },
+    'mechanical-engineering': {
+      departmentId: 'mechanical-engineering',
+      courses: [
+        {
+          id: 'me101',
+          code: 'ME101',
+          title: 'Engineering Mechanics',
+          description: 'Statics and dynamics of particles and rigid bodies, equilibrium, and motion analysis.',
+          creditHours: 4,
+          level: '100',
+          semester: 'First',
+        },
+        {
+          id: 'me102',
+          code: 'ME102',
+          title: 'Thermodynamics',
+          description: 'Laws of thermodynamics, energy transfer, and thermal properties of matter.',
+          creditHours: 3,
+          level: '100',
+          semester: 'Second',
+        },
+      ],
+    },
+    'civil-engineering': {
+      departmentId: 'civil-engineering',
+      courses: [
+        {
+          id: 'ce101',
+          code: 'CE101',
+          title: 'Structural Analysis',
+          description: 'Analysis of statically determinate and indeterminate structures, force and deflection methods.',
+          creditHours: 3,
+          level: '100',
+          semester: 'First',
+        },
+        {
+          id: 'ce102',
+          code: 'CE102',
+          title: 'Soil Mechanics',
+          description: 'Physical and mechanical properties of soils, soil classification, compaction, and foundation design principles.',
+          creditHours: 4,
+          level: '100',
+          semester: 'Second',
+        },
+      ],
+    },
+  };
