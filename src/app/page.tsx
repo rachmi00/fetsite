@@ -45,7 +45,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
             <div className="h-48 bg-gray-200 relative">
-              {/* In real app, use actual images */}
+          
               <div className="absolute inset-0 flex items-center justify-center text-gray-500">
                 Computer Science Image
               </div>
