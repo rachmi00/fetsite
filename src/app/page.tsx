@@ -95,7 +95,7 @@ import {
   ArrowRight,
   ChevronRight,
 } from "lucide-react";
-import "../styles/page.module.css"
+import "./page.modules.css"
 
 export default function Home(){
   return(
@@ -248,6 +248,142 @@ export default function Home(){
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="departments-section">
+        <div className="container px-4">
+          <div className="departments-header">
+            <div className="departments-badge">
+              <Cpu className="h-4 w-4">
+              </Cpu>
+              Academic Excellence
+            </div>
+
+           <h2 className="departments-title">Our departments</h2>
+           <p className="departments-description">Explore our diverse range of engineering disciplines to prepare you for success in your chosen field</p>
+          </div>
+           <div className="departments-grid">
+            
+             <div className="department-card group">
+              <div className="department-image-container department-image-gradient-1">
+                <img
+                  src="/placeholder.svg"
+                  alt="Computer Engineering"
+                  className="department-image"
+                />
+                <div className="department-image-overlay"></div>
+                <div className="department-icon-container">
+                  <Code className="h-6 w-6 department-icon-1" />
+                </div>
+              </div>
+              <div className="department-content">
+                <h3 className="department-name">Computer Engineering</h3>
+                <p className="department-description">
+                  Programming, algorithms, artificial intelligence, Software engineering and Network engineering.
+                </p>
+                <div className="department-tags">
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Network Engineering</span>
+                  
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Software Engineering</span>
+                </div>
+                <a href="/departments/computer-science" className="department-link">
+                  View Curriculum
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </a>
+              </div>
+            </div>
+
+              {/* Electrical */}
+            <div className="department-card group">
+              <div className="department-image-container department-image-gradient-1">
+                <img
+                  src="/placeholder.svg"
+                  alt="Computer Science"
+                  className="department-image"
+                />
+                <div className="department-image-overlay"></div>
+                <div className="department-icon-container">
+                  <Code className="h-6 w-6 department-icon-1" />
+                </div>
+              </div>
+              <div className="department-content">
+                <h3 className="department-name">Electrical Engineering</h3>
+                <p className="department-description">
+                  Telecommunications and Power Systems
+                </p>
+                <div className="department-tags">
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Circuits</span>
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Power</span>
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Telecom</span>
+                </div>
+                <a href="/departments/electrical-engineering" className="department-link">
+                  View Curriculum
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </a>
+              </div>
+            </div>
+
+             {/* Mecha*/}
+             <div className="department-card group">
+              <div className="department-image-container department-image-gradient-1">
+                <img
+                  src="/placeholder.svg"
+                  alt="Computer Science"
+                  className="department-image"
+                />
+                <div className="department-image-overlay"></div>
+                <div className="department-icon-container">
+                  <Code className="h-6 w-6 department-icon-1" />
+                </div>
+              </div>
+              <div className="department-content">
+                <h3 className="department-name">Mechanical Engineering</h3>
+                <p className="department-description">
+                  Thermodynamics and Manufacturing
+                </p>
+                <div className="department-tags">
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Thermodynamics</span>
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Design</span>
+                  
+                </div>
+                <a href="/departments/mechanical-engineering" className="department-link">
+                  View Curriculum
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </a>
+              </div>
+            </div>
+             {/* Civil */}
+             <div className="department-card group">
+              <div className="department-image-container department-image-gradient-1">
+                <img
+                  src="/placeholder.svg"
+                  alt="Computer Science"
+                  className="department-image"
+                />
+                <div className="department-image-overlay"></div>
+                <div className="department-icon-container">
+                  <Code className="h-6 w-6 department-icon-1" />
+                </div>
+              </div>
+              <div className="department-content">
+                <h3 className="department-name">Electrical Engineering</h3>
+                <p className="department-description">
+                  Telecommunications and Power Systems
+                </p>
+                <div className="department-tags">
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Circuits</span>
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Power</span>
+                  <span className="department-tag-1 text-xs px-2 py-1 rounded-full">Telecom</span>
+                </div>
+                <a href="/departments/electrical-en" className="department-link">
+                  View Curriculum
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </a>
+              </div>
+            </div>
+          
           </div>
         </div>
       </section>
